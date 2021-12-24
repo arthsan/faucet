@@ -1,3 +1,4 @@
+import { ChakraProvider } from '@chakra-ui/react'
 import { AppProps } from 'next/app'
 import Head from 'next/head'
 
@@ -5,7 +6,7 @@ import GlobalStyles from 'styles/global'
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <ChakraProvider>
       <Head>
         <title>React Avançado - Boilerplate</title>
         <link rel="shortcut icon" href="/img/icon-512.png" />
@@ -20,7 +21,7 @@ function App({ Component, pageProps }: AppProps) {
       </Head>
       <GlobalStyles />
       <Component {...pageProps} />
-    </>
+    </ChakraProvider>
   )
 }
 
