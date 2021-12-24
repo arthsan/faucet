@@ -8,7 +8,7 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider>
       <Head>
-        <title>React Avançado - Boilerplate</title>
+        <title>Ethereum Faucet</title>
         <link rel="shortcut icon" href="/img/icon-512.png" />
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
 
@@ -16,7 +16,7 @@ function App({ Component, pageProps }: AppProps) {
         <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
-          content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
+          content="A simple project starter to work with TypeScript, React, NextJS and Styled Components using blockchain"
         />
       </Head>
       <GlobalStyles />
